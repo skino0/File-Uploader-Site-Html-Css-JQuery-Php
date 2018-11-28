@@ -45,7 +45,7 @@ if(isset($_POST["submit"])) {
             echo "Sorry, file already exists.";
         }else {
             // Check file size
-            if ($_FILES["fileToUpload"]["size"] > 99999999) {
+            if ($_FILES["fileToUpload"]["size"] > 500) {
                 echo "Sorry, your file is too large.";
             }else {
                 // Allow certain file formats
