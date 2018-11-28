@@ -1,0 +1,12 @@
+#features {
+    -webkit-clip-path: polygon(0 17%, 79% 25%, 87% 52%, 86% 89%, 41% 100%, 0% 75%);
+    clip-path: polygon(0 17%, 79% 25%, 87% 52%, 86% 89%, 41% 100%, 0% 75%);
+    background-color: rgba(92, 92, 92, 0.3);
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    margin: 10vh 0 0 2vw;
+}

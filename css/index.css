@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+::selection {
+    background-color: rgba(255, 166, 0, .8);
+}
+
+html,
+body {
+    overflow: hidden!important;
+}
+
+body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: rgb(124, 124, 124, .2);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+/*
+    animation: bodyborder 4s forwards infinite;
+    animation-fill-mode: both;
+
+
+
+}
+@keyframes bodyborder {
+    0% {
+        border: 14px #000000 solid;
+    }
+    
+    50% {
+        border: 5px #000000 solid;
+    }
+    
+    100% {
+        border: 14px #000000 solid;
+    }
+}
+*/
+
+#form {
+    cursor: default;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-align: center;
+}
+
+#header {
+    color: #ff0000;
+    font-family: 'Do Hyeon', sans-serif;
+    letter-spacing: 2px;
+    left: 0;
+    font-size: 32px;
+    position: absolute;
+    margin: 40vh 0 0 6vw;
+    animation: header 4s forwards infinite;
+    animation-fill-mode: both;
+    /*text-shadow: 5px 2.7px 1.8px #000000;*/
+}
+
+@keyframes header {
+    0% {
+        text-shadow: 2.5px 2.7px 1.2px rgba(0, 0, 0, 1);
+    }
+    20%,
+    60% {
+        text-shadow: 2.5px 1px 1.5px rgba(0, 0, 0, .7);
+    }
+    40%,
+    80% {
+        text-shadow: 2.5px 2px 5px rgba(0, 0, 0, .5);
+    }
+    100% {
+        text-shadow: 2.5px 2.7px 1.2px rgba(0, 0, 0, 1);
+    }
+}
+
+@-moz-keyframes header {
+    0% {
+        text-shadow: 2.5px 2.7px 1.2px rgba(0, 0, 0, 1);
+    }
+    20%,
+    60% {
+        text-shadow: 2.5px 1px 1.5px rgba(0, 0, 0, .7);
+    }
+    40%,
+    80% {
+        text-shadow: 2.5px 2px 5px rgba(0, 0, 0, .5);
+    }
+    100% {
+        text-shadow: 2.5px 2.7px 1.2px rgba(0, 0, 0, 1);
+    }
+}
+
+@-webkit-keyframes header {
+    0% {
+        text-shadow: 2.5px 2.7px 1.2px rgba(0, 0, 0, 1);
+    }
+    20%,
+    60% {
+        text-shadow: 2.5px 1px 1.5px rgba(0, 0, 0, .7);
+    }
+    40%,
+    80% {
+        text-shadow: 2.5px 2px 5px rgba(0, 0, 0, .5);
+    }
+    100% {
+        text-shadow: 2.5px 2.7px 1.2px rgba(0, 0, 0, 1);
+    }
+}
+
+#easyw {
+    color: #000000;
+    font-family: 'Do Hyeon', sans-serif;
+    letter-spacing: 2px;
+    left: 0;
+    font-size: 15px;
+    position: absolute;
+    font-weight: 500;
+    margin: 46vh 0 0 6vw;
+    padding: 0 0 5px 0;
+    border-bottom: 1.9px rgba(0, 0, 0, .5) solid;
+}
+
+#footer {
+    right: 0;
+    bottom: 0%;
+    margin: 0 1vw 3.8vh 0;
+    position: absolute;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    border-left: 1px #7b7b7b solid;
+    letter-spacing: 1.2px;
+    padding: 0 0 0 5.7px;
+}
+
+
+/*
+input[type='file'] {
+    background-color: rgba(92, 92, 92, 0.5);
+    margin: 0 8px 0 8px;
+}
+*/
+
+#file {
+    visibility: hidden;
+    width: 0.1px;
+    display: none;
+}
+
+#labupload {
+    background: linear-gradient(rgba(245, 14, 60, 1), #9d0202);
+    color: white;
+    padding: 10px;
+    margin: 52vh 0 0 6vw;
+    position: absolute;
+    cursor: pointer;
+    left: 0;
+    border: 3px rgba(124, 3, 3, 0.7) solid;
+    word-wrap: break-word;
+}
+
+#labupload:hover {
+    color: white;
+    animation-fill-mode: both;
+    animation: uploadhov .5s forwards;
+}
+
+@keyframes uploadhov {
+    0% {
+        background: linear-gradient(rgba(245, 14, 60, 1), #9d0202);
+        filter: blur(3px);
+        border: 3px rgba(124, 3, 3, 0.7) solid;
+    }
+    80% {
+        background: linear-gradient(#9d0202, rgba(245, 14, 60, .9));
+    }
+    100% {
+        border: 2px rgba(0, 0, 0, .9) solid;
+        background: linear-gradient(#9d0202, rgba(245, 14, 60, .9));
+        filter: blur(0px);
+    }
+}
+
+#uploadic {
+    font-size: 24px;
+    color: rgba(255, 255, 255, .8);
+    padding: 0 5px 7px 0;
+    text-shadow: 0 0 5px #000000;
+    letter-spacing: 0!important;
+}
+
+#labtext {
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 1.3px;
+    font-weight: 550;
+    padding-right: 8px;
+    padding-left: 5px;
+    font-family: 'Montserrat', sans-serif;
+    background: transparent!important;
+}
+
+#upload {
+    margin: 64vh 0 0 6vw;
+    left: 0;
+    position: absolute;
+    padding: 7px 15px 7px 15px;
+    letter-spacing: .9px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, .5);
+}
+
+#upload:hover {
+    transition-duration: .3s;
+    background-color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}

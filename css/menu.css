@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+.menu {
+    list-style: none;
+    z-index: 1;
+    right: 0;
+    position: absolute;
+    margin: 2vh 6.7vw 0 0;
+}
+
+.menu .menuitem {
+    display: inline-block;
+    list-style: none;
+    margin-bottom: .2vh;
+    margin-top: 1vh;
+    right: 0;
+}
+
+.menu .menuitem a {
+    position: relative;
+    display: flex;
+    margin: 0 10px 0 10px;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+    color: #000000;
+    font-size: 19px;
+}
+
+.menu .menuitem a:hover {
+    transition-duration: .5s;
+    color: #b2b2b2;
+    border-bottom: 1px rgba(0, 0, 0, .8) solid;
+    padding: 0 0 5px;
+}
+
+.menu .menuitem.active a {
+    margin: 0 22px 0 22px;
+    transition-duration: .5s;
+    color: #b2b2b2;
+    border-bottom: 1px #000000 solid;
+    padding: 0 0 5px;
+    color: #08e7d1;
+}

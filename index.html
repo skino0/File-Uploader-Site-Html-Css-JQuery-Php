@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Drag0n</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/general.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <meta name="viewport" content="width=device-width, initial scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+
+
+</head>
+
+<body data-aos="fade-down">
+    <div id="bg"></div>
+
+    <ul class="menu">
+
+        <li class="menuitem "><a href="about.html">About us</a>
+        </li>
+        <li class="menuitem"><a href="features.html">Features</a>
+
+        </li>
+
+
+
+    </ul>
+
+
+
+    <h1 id="header" data-aos="fade-right" data-aos-duration="300">Drag0n</h1>
+    <p id="easyw" data-aos="fade-right" data-aos-delay="300" data-aos-duration="400">The easiest way to share files !
+        <div id="bar"></div>
+    </p>
+
+
+    <form id="form" action="upload.php" method="post" enctype="multipart/form-data">
+
+
+        <label for="file" id="labupload">
+                        <i id="uploadic" class="fas fa-upload"></i><br>
+                        <span id="labtext">Select file to upload</span>
+                </label>
+
+        <input type="file" name="fileToUpload" maxlength="10" id="file" multiple="true">
+
+        <input type="submit" onclick="uploadFile()" value="Upload" name="submit" id="upload" disabled/>
+
+    </form>
+
+
+
+
+    <p id="footer">Created by CodeDies<br>Designed by skino0</p>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script src="https://use.fontawesome.com/3e66d15b0b.js"></script>
+    <script src="js/file.js"></script>
+    <script src="js/submit.js"></script>
+    <script src="js/max.js"></script>
+    <script src="js/active.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

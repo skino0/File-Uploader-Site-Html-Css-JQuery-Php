@@ -1,0 +1,111 @@
+    @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+    @import url('https://fonts.googleapis.com/css?family=Do+Hyeon');
+    #about {
+        text-align: center;
+        position: absolute;
+        margin: 30vh 0 0 3vw;
+        left: 0;
+        font-size: 15px;
+        line-height: 25px;
+        font-weight: 700;
+        font-family: 'Source Code Pro', monospace;
+        letter-spacing: 1.1px;
+        border-right: 2px rgba(0, 0, 0, .5) solid;
+        padding: 0 40px 0 0;
+    }
+    
+    a {
+        color: #505050;
+        padding: 0 0 2px 0;
+        border-bottom: 1px rgba(0, 0, 0, .4) solid;
+        text-decoration: none;
+    }
+    
+    .infoimg {
+        width: 90px;
+        height: 90px;
+        margin: 65vh 0 0 4vw;
+        left: 0;
+        border-radius: 50%;
+        border: 2px rgba(0, 153, 255, 0.7) solid;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    .info {}
+    
+    .title {
+        margin: 4px 0 0 3.6vw;
+        left: 0;
+        position: absolute;
+        text-align: center;
+        font-size: 13px;
+    }
+    
+    .title:nth-child(2) {
+        margin: 4px 0 0 16.1vw;
+        left: 0;
+        position: absolute;
+    }
+    
+    .soclist {
+        margin: 40px 0 0 4vw;
+        left: 0;
+        position: absolute;
+        text-align: center;
+    }
+    
+    .soclist2 {
+        margin: 40px 0 0 16vw;
+        left: 0;
+        position: absolute;
+        text-align: center;
+        display: block;
+    }
+    
+    .insta {
+        line-height: 40px;
+        font-size: 18px;
+        color: rgba(68, 68, 68, 0.7);
+        text-decoration: none;
+        border: 0px;
+        font-weight: 500;
+        font-family: 'Do Hyeon', sans-serif;
+    }
+    
+    .insta2 {
+        line-height: 40px;
+        font-size: 18px;
+        color: rgba(68, 68, 68, 0.7);
+        text-decoration: none;
+        border: 0px;
+        font-weight: 500;
+        font-family: 'Do Hyeon', sans-serif;
+    }
+    
+    .insta:hover {
+        transition-duration: .8s;
+        color: rgba(55, 55, 55, 1);
+    }
+    
+    .insta2:hover {
+        transition-duration: .8s;
+        color: rgba(55, 55, 55, 1);
+    }
+    
+    .twitter {
+        line-height: 40px;
+        font-size: 18px;
+        color: rgba(68, 68, 68, 0.7);
+        text-decoration: none;
+        border: 0px;
+        font-weight: 500;
+        font-family: 'Do Hyeon', sans-serif;
+    }
+    
+    .twitter:hover {
+        transition-duration: .8s;
+        color: rgba(55, 55, 55, 1);
+    }
