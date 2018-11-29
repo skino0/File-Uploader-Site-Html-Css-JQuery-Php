@@ -1,63 +1,84 @@
-#File Upload Website Project that coded & Designed with Passion
+# File Up-loader Website | Dragon
 
-#Licensed by Georgios Gounaris (License.md file).
+---
 
-#Personal portfolio https://www.skino0.com
+> File Uploader Website Project
 
-#Includes: 
+> Coded & Designed with Passion 
 
-#Html5,FontAwesome Icons,Google Fonts
+---
 
-#Css following Styles:
+## ![Image](http://g.recordit.co/ePDi2u2AuG.gif)
 
-#Animated Navigation Menu.(Both)
+## Included:
 
-#Clip Path Design Maked on Clippy. (Both)
+- Html5
+- Css3
+- JQuery
+- Php
+- Font Awesome
+- Google Fonts
+- AOS Animation Library
 
-#Replaced Upload Input with Styled Label & also Animated. (Index)
+---
 
-#Infinite Animated 'Dragon' Logo with text-shadow cool moves. (Index)
+**Css Styles:**
 
-#Animated Upload Button. (Index)
+- Animated Navigation Menu (Both)![Image](http://g.recordit.co/HYmlo4i3AC.gif)
 
-#Joining-Lighting Page top to bottom Animtion. (Index)
+- Clip Path Design Maked on Clippy. (Both)
 
-#Animated Sliding text from Negative left to position bellow of Website Logo. (Index)
+- Replaced Upload Input with Styled Label & also Animated. (Index)
 
-#Joining-Lighting Page right to left Animation. (About)
-
-#A sample text about us with nice styling that is eye friendly including spaces etc. etc. (About)
-
-#Team Icons & Social That possibly displayed as destroyed on ur screen but dont give a attention the project is uncompleted.
-
-
-
-#JQuery Script's with following actions:
-
-#Check's the name length of file & set it to max length to prevent unexpected actions.
-
-#Change File select Button Name from 'Select file' to 'file.extension'.
-
-#Upload Button change's from disabled to enabled when file is selected.
-
-#Add,Remove Classes Script.
-
-#Php scripts that gived to me by codedies team that have some of following actions:
-
-#Check files size.
-
-#Allowed file's extensions.
-
-#Allowed size of file.
-
-#File Upload script.
+- Hover Animated Upload Button (Index)
 
 
-#*****Important*****
 
-#Non-Responsive - Mobile Friendly.
+  ![Image](http://g.recordit.co/Ahk6YYR7Pw.gif)
 
-#Browser use only.
+- Infinite Animated 'Dragon' Logo with text-shadow cool moves. (Index)
 
-#*****Important*****
+- Joining-Lighting Page top to bottom AOS Animation (Index)
+
+- Animated Sliding text from Negative left to position bellow of Website Logo. (Index)
+
+- Joining-Lighting Page right to left AOS Animation. (About)
+
+- A sample text about us with nice styling that is eye friendly including spaces etc. etc. (About)
+
+- Team Icons & Social That possibly displayed as destroyed on ur screen but dont give a attention the project is uncompleted.
+
+
+
+**JQuery Script's:**
+
+- Check's the name length of file & set it to max length to prevent unexpected actions.
+- Change File select Button Name from 'Select file' to 'file.extension'.
+- Upload Button change's from disabled to enabled when file is selected.
+- Add,Remove Classes Script.
+
+**Php script's:**
+
+- Check files size.
+- Allowed file's extensions.
+- Allowed size of file.
+- File Upload script.
+
+---
+
+**Non Responsive - Non Mobile Friendly**
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](https://gist.github.com/PurpleBooth/LICENSE.md) file for details
+
+---
+
+[**My portfolio**](https://www.skino0.com)
+
+
+
+
 
