@@ -72,7 +72,7 @@
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://gist.github.com/PurpleBooth/LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/skino0/File-Uploader-Site-Html-Css-JQuery-Php/blob/master/license.md) file for details
 
 ---
 
